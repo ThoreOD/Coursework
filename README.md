@@ -1,1 +1,1 @@
-![logo](https://github.com/thore-dahl/Coursework/assets/130995551/f4fcd6e7-cc38-488a-91dc-8e46e1351f65)
+![logo](https://github.com/thore-dahl/Coursework/assets/130995551/e7e5f377-1d78-4f7d-85d2-2f9cf36195b8)
