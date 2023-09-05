@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="https://i.stack.imgur.com/RJj4x.png](https://github.com/thore-dahl/Coursework/assets/130995551/4b6ea7f9-9025-4636-bf4d-889ebe9e64cd">
+  <img src="https://github.com/thore-dahl/Coursework/assets/130995551/d7094f73-46de-4533-84ae-539b75c9fc19">
 </p>
