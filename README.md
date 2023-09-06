@@ -4,3 +4,4 @@
 </div>
 ![alt text](https://img.shields.io/badge/Python-text-3776AB?style=for-the-badge&logo=Python)
 ![alt text](https://img.shields.io/badge/any_text-you_like-blue)
+![alt text](https://img.shields.io/badge/any_text-you_like-blue)
