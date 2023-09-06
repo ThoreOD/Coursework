@@ -13,7 +13,11 @@ Portfolio projects completed as a graduate student at the Kiel University of App
 <img src="https://img.shields.io/badge/SciPy-black?logo=SciPy&logoColor=white" alt="SciPy">
 <img src="https://img.shields.io/badge/sklearn-black?logo=scikit-learn&logoColor=white" alt="sklearn">
 </div>
-<a href="#section1">Go to Section 1</a>
+<a href="#section1">Data Visualization and Visual Analytics</a>
+<a href="#section1">Tools and Programming Languages</a>
+<a href="#section1">Mathematics and Multivariate Statistics</a>
+<a href="#section1">Machine Learning</a>
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <h2 id="section1">Section 1</h2>
 <p>This is the content of section 1.</p>
