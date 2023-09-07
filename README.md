@@ -47,3 +47,4 @@ Datasets containing transactional features of users within <a href="https://www.
 <h3 id="PTDS">
   Tools and Programming Languages for Data Science (PTDS)
 </h3>
+A Python module for streamlining <a href="https://www.worldbank.org/en/home">World Bank</a> data retrieval has been designed as part of the <a href="https://github.com/thore-dahl/Coursework/tree/main/application_programming_interface">project</a>. The module interfaces with the <a href="https://www.worldbank.org/en/home">World Bank</a> API, through parameterized queries, encompassing input variables such as "country code", "indicator", and "year". Resulting data is tidied, and returned as a pandas DataFrame by the module, as a foundation for advanced data science endeavors.
