@@ -39,6 +39,7 @@ Multi-structural datasets pertaining to ChatGPT (innovative) and Chegg Inc. (tra
 <h3 id="ML">
   Introduction to Machine Learning (ML)
 </h3>
+A dataset comprised of musical features associated with songs on Spotify, as labeled by a user's likes and dislikes was preprocessed and exposed to initial as well as explanatory analysis. In the course of the classification <a href="https://github.com/thore-dahl/Coursework/tree/main/ml_classification">project</a>, models were trained on that preprocessed data, employing "K-Nearest-Neighbor", "Decision Trees", and "Support Vector Machines", tuned for its hyperparameters, and nested cross-validated. Based on the <a href="https://github.com/thore-dahl/Coursework/tree/main/ml_classification">project</a> findings recommendations as to a model, curating as yet unseen songs to stimulate user engagement, have been proposed.
 <h3 id="MMS">
   Mathematics and Multivariate Statistics (MMS)
 </h3>
