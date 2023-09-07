@@ -23,20 +23,25 @@ This section provides a brief overview of the courses pursued as a foundation fo
 <br>
 <br>
 <ul>
-  <li>Data Visualization and Visual Analytics (<a href="#dataviz">DVVA</a>)</li>
-  <li>Introduction to Machine Learning (<a href="#dataviz">ML</a>)</li>
-  <li>Mathematics and Multivariate Statistics (<a href="#dataviz">MMS</a>)</li>
-  <li>Tools and Programming Languages for Data Science (<a href="#dataviz">PTDS</a>)</li>
+  <li>Data Visualization and Visual Analytics (<a href="#DVVA">DVVA</a>)</li>
+  <li>Introduction to Machine Learning (<a href="#ML">ML</a>)</li>
+  <li>Mathematics and Multivariate Statistics (<a href="#MMS">MMS</a>)</li>
+  <li>Tools and Programming Languages for Data Science (<a href="#PTDS">PTDS</a>)</li>
 </ul>
 <h2>
   Course Project
 </h2>
-
-<a href="#section1">Data Visualization and Visual Analytics</a>
-<a href="#section1">Tools and Programming Languages</a>
-<a href="#section1">Mathematics and Multivariate Statistics</a>
-<a href="#section1">Machine Learning</a>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<h2 id="dataviz">Section 1</h2>
-<p>This is the content of section 1.</p>
+Below, a course's project, along with its outcome, and path to be found are detailed.
+<h3 id="DVVA">
+  Data Visualization and Visual Analytics (DVVA)
+</h3>
+Multi-structural datasets pertaining to ChatGPT (innovative) and Chegg Inc. (traditional) were preprocessed, allowing for data journalism. Throughout the data journalism <a href="https://github.com/thore-dahl/Coursework/tree/main/data_visualization">project</a>, preprocessed data was analyzed for sentiment among platforms of the e-learning vertical, and visually presented. This <a href="https://github.com/thore-dahl/Coursework/tree/main/data_visualization">project</a> therefore gave insight into the future delivery of education by means of indicators, thus assisting with the navigation of the e-learning sector on financial markets. 
+<h3 id="ML">
+  Introduction to Machine Learning (ML)
+</h3>
+<h3 id="MMS">
+  Mathematics and Multivariate Statistics (MMS)
+</h3>
+<h3 id="PTDS">
+  Tools and Programming Languages for Data Science (PTDS)
+</h3>
