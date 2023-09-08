@@ -6,10 +6,27 @@
 <div align="center">
 <b>Portfolio projects completed as a graduate student at the Kiel University of Applied Science in the field of data science</b>
 <br><br>
-<img src="https://img.shields.io/badge/NumPy-003140?logo=NumPy&logoColor=ffffff" alt="numpy">
-<img src="https://img.shields.io/badge/pandas-003140?logo=pandas&logoColor=ffffff" alt="pandas">
-<img src="https://img.shields.io/badge/SciPy-003140?logo=SciPy&logoColor=ffffff" alt="scipy">
-<img src="https://img.shields.io/badge/scikit--learn-003140?logo=scikit-learn&logoColor=ffffff" alt="scikit-learn">
+  <a href="https://altair-viz.github.io" target="_blank" rel="noreferrer"> 
+    <img src="https://avatars.githubusercontent.com/u/22396732?s=200&v=4" alt="altair" width="40" height="40"/> 
+  </a>
+  <a href="https://matplotlib.org" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/valohai/ml-logos/d8dfb916e50a93a41f3b1ed2ca7bd3dbc77030a2/matplotlib.svg" alt="matplotlib" width="40" height="40"/> 
+  </a>
+  <a href="https://www.nltk.org" target="_blank" rel="noreferrer"> 
+    <img src="https://github.com/thore-dahl/thore-dahl/assets/130995551/3eca14bd-4577-4637-9df6-55fbb2172e86" alt="nltk" width="40" height="40"/> 
+  </a>
+  <a href="https://numpy.org" target="_blank" rel="noreferrer"> 
+    <img src="https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg" alt="numpy" width="40" height="40"/> 
+  </a>
+  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> 
+  </a>
+  <a href="https://scipy.org" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/valohai/ml-logos/d8dfb916e50a93a41f3b1ed2ca7bd3dbc77030a2/scipy.svg" alt="scipy" width="40" height="40"/> 
+  </a>
+  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
+  </a>
 </div>
 <h1></h1>
 <h2>Course Overview</h2>
