@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta content = "text/html; charset = UTF-8"/>
+    <title>Music Recommender</title>
+    <link rel = "icon" href = "./static/logo.svg" type = "image/png">
+    <link rel = "stylesheet" href = "./static/css/materialize.css" type = "text/css"/>
+  </head>
+  <body>
+
+    <navigation class = "blue radio">
+      <img class = "logo" src = "./static/logo.svg" alt = "80s80s">
+      <a class = "nav">
+        <ul class = "nav_elements">
+          <li><a href = "https://www.80s80s.de/home">Home</a></li>
+          <li><a href = "https://www.80s80s.de/80s80s-original-podcasts">Podcast</a></li>
+          <li><a href = "https://www.80s80s.de/musik">Music</a></li>
+          <li><a href = "https://www.80s80s.de/voting">Participate</a></li>
+          <li><a href = "https://www.80s80s.de/home/streams/empfang">Reception</a></li>
+        </ul>
+      </a>
+      <a class = "radio" href = "https://www.80s80s.de/streams"><radio_button>Radios</radio_button></a>
+    </navigation>
+
+    <div class = "main_frame">
+      <form action = "/recommend" method = "post">
+        <div class = "input_header">
+          <h1 class = "base_section blue_text">Music Recommender</h1>
+          <h5 class = "base_section grey_text">Featuring 1980s-Era Songs</h5>
+        </div>
+        <div class = "first_input input_field grey_text">            
+          <b>Song</b>
+          <input name = "Song" placeholder = "Enter a song title" type = "text">
+        </div>
+        <div class = "second_input input_field grey_text">
+          <b>Artist</b>
+          <input name = "Artist" placeholder = "Enter the song's artist" type = "text">
+        </div>
+        <div class = "third_input input_field grey_text">
+          <b>Repute</b>
+          <input name = "Repute" placeholder = "Enter the least popular percentile to be cut off" type = "text" value = "0">    
+        </div>
+        <div class = "input_button">
+          <button class = "btn_base btn_large" type = "submit" >Give Recommendations</button>
+          {% if error_message %}
+            <div class = "error">{{ error_message }}</div>
+          {% endif %}
+        </div>
+      </form>
+
+      <div class = "input_audio">
+        {% if rec %}
+          <div class = "box_left">
+            <iframe style = "border-radius:12px;" src = "{{ rec[0] }}" width = "100%" height = "352" frameBorder = "0" allowfullscreen = "" allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading = "lazy">
+            </iframe>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class = "output_audio">
+        {% if rec %}
+          <div class = "box_right">
+            <iframe id = "preview_audio" style = "border-radius:12px" src = "{{ rec[1][0] }}" width = "100%" height = "352" frameBorder = "0" allowfullscreen = "" allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading = "lazy">
+            </iframe>
+          </div>
+          <h1 id = "similarity_audio" class = "base_section match blue_text">{{ rec[2][0] }}</h1>
+          <div class = "btn_nav">
+            <button id = "next_audio" class = "btn_base btn_small">Skip</button>
+            <button id = "previous_audio" class = "btn_base btn_small">Back</button>
+          </div>
+        {% endif %}
+      </div>
+
+      {% if rec %}
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const preview_audio = document.getElementById("preview_audio");
+          const previous_audio = document.getElementById("previous_audio");
+          const next_audio = document.getElementById("next_audio");
+          const urls_audio_right = {{ rec[1]|tojson|safe }};
+          const similarity_audio = {{ rec[2]|tojson|safe }};
+          let current_index = 0;
+          
+          function loadAudio(index) {
+            document.getElementById("similarity_audio").textContent = similarity_audio[index];
+            preview_audio.src = urls_audio_right[index];
+            preview_audio.load();
+          }
+          
+          previous_audio.addEventListener("click", () => current_index > 0 && loadAudio(--current_index));
+
+          next_audio.addEventListener("click", () => current_index < urls_audio_right.length - 1 && loadAudio(++current_index));
+          
+          loadAudio(current_index);
+        });
+        </script>
+      {% endif %}
+  </div>
+
+  <footer class = "copyright_footer">
+    <p>&copy; 80s80s Conent-Based Recommender - Version 3.0</p>
+  </footer>
+
+  </body>
+</html>
