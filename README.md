@@ -33,6 +33,7 @@
 This section provides a brief overview of the courses pursued as a foundation for the projects of my academic career.
 <br><br>
 <ul>
+  <li>Application Project (<a href="#AP">AP</a>)</li>
   <li>Data Visualization and Visual Analytics (<a href="#DVVA">DVVA</a>)</li>
   <li>Introduction to Machine Learning (<a href="#ML">ML</a>)</li>
   <li>Mathematics and Multivariate Statistics (<a href="#MMS">MMS</a>)</li>
@@ -40,6 +41,8 @@ This section provides a brief overview of the courses pursued as a foundation fo
 </ul>
 <h2>Course Project</h2>
 Below, a course's project, along with its outcome, and path to be found are detailed.
+<h3 id="AP">Application Project</h3>
+Unstructured datasets such as <a href="https://open.spotify.com/intl-de">genres</a>, <a href="https://genius.com">lyrics</a>, and users' <a href="https://www.last.fm/de/home">tags</a>, were processed via NLP approaches. Preprocessing steps were implemented in accordance with overarching NLP concepts. Concepts as manifested in pre-trained fastText for static genre embeddings. As NRCLex for lexical emotions and sentiments as well as trained Doc2vec for contextualized word embeddings, as in the case of lyrics. Contrasting to TF-IDF (a count-based approach) for users' tags. Results were complemented by sonic, scored via a CBRS. A CBRS, composed of cosine similarities and Euclidean distances, weighted by features. The CBRS was deployed online via Flask. Spotify previews were accessible on search. A substitute assistant for <a href="https://www.80s80s.de">Radio 80s80s</a>' music planners and moderators was therefore furnished under this <a href="https://github.com/thore-dahl/Coursework/tree/main/application_project">project</a>.
 <h3 id="DVVA">Data Visualization and Visual Analytics (DVVA)</h3>
 Multi-structural datasets pertaining to <a href="https://openai.com/blog/chatgpt">ChatGPT</a> (innovative) and <a href="https://www.chegg.com">Chegg Inc.</a> (traditional) were preprocessed, allowing for data journalism. Throughout the data journalism <a href="https://github.com/thore-dahl/Coursework/tree/main/data_visualization">project</a>, preprocessed data was analyzed for sentiment among platforms of the e-learning vertical, and visually presented. This <a href="https://github.com/thore-dahl/Coursework/tree/main/data_visualization">project</a> therefore gave insight into the future delivery of education by means of indicators, thus assisting with the navigation of the e-learning sector on financial markets. 
 <h3 id="ML">Introduction to Machine Learning (ML)</h3>
