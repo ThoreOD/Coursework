@@ -38,6 +38,7 @@ This section provides a brief overview of the courses pursued as a foundation fo
   <li>Deep Learning: Introduction, Applications, Tools (<a href="#DL">DL</a>)</li>
   <li>Introduction to Machine Learning (<a href="#ML">ML</a>)</li>
   <li>Mathematics and Multivariate Statistics (<a href="#MMS">MMS</a>)</li>
+  <li>Social Media Analytics (<a href="#SM">SM</a>)</li>
   <li>Tools and Programming Languages for Data Science (<a href="#PTDS">PTDS</a>)</li>
 </ul>
 <h2>Course Project</h2>
