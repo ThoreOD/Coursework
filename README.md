@@ -9,11 +9,20 @@
   <a href="https://altair-viz.github.io" target="_blank" rel="noreferrer"> 
     <img src="https://avatars.githubusercontent.com/u/22396732?s=200&v=4" alt="altair" width="40" height="40"/> 
   </a>
+  <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank" rel="noreferrer"> 
+    <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> 
+  </a>
+  <a href="https://huggingface.co/docs/transformers/index" target="_blank" rel="noreferrer"> 
+    <img src="https://workable-application-form.s3.amazonaws.com/advanced/production/61557f91d9510741dc62e7f8/c3635b59-a3d2-444a-b636-a9d0061dcdde" alt="hugging_face" width="40" height="40"/> 
+  </a>
+  <a href="https://radimrehurek.com/gensim/" target="_blank" rel="noreferrer"> 
+    <img src="https://media.slid.es/uploads/465821/images/5836629/pasted-from-clipboard.png" alt="gensim" width="40" height="40"/> 
+  </a>
   <a href="https://matplotlib.org" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/valohai/ml-logos/d8dfb916e50a93a41f3b1ed2ca7bd3dbc77030a2/matplotlib.svg" alt="matplotlib" width="40" height="40"/> 
   </a>
   <a href="https://www.nltk.org" target="_blank" rel="noreferrer"> 
-    <img src="https://github.com/thore-dahl/thore-dahl/assets/130995551/3eca14bd-4577-4637-9df6-55fbb2172e86" alt="nltk" width="40" height="40"/> 
+    <img src="https://miro.medium.com/v2/resize:fit:592/1*YM2HXc7f4v02pZBEO8h-qw.png" alt="nltk" width="40" height="40"/> 
   </a>
   <a href="https://numpy.org" target="_blank" rel="noreferrer"> 
     <img src="https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg" alt="numpy" width="40" height="40"/> 
@@ -21,11 +30,20 @@
   <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> 
   </a>
+  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
+  </a>
   <a href="https://scipy.org" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/valohai/ml-logos/d8dfb916e50a93a41f3b1ed2ca7bd3dbc77030a2/scipy.svg" alt="scipy" width="40" height="40"/> 
   </a>
   <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> 
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
+  </a>
+  <a href="https://skorch.readthedocs.io/en/stable/" target="_blank" rel="noreferrer"> 
+    <img src="https://avatars.githubusercontent.com/u/47992320?s=280&v=4" alt="skorch" width="40" height="40"/>
+  </a>
+  <a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
   </a>
 </div>
 <h1></h1>
