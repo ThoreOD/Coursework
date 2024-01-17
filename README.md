@@ -55,14 +55,11 @@ This section provides a brief overview of the courses pursued as a foundation fo
 <br><br>
 <ul>
   <li>Data Visualization and Visual Analytics (<a href="#DVVA">DVVA</a>)</li>
-  <li>Introduction to Machine Learning (<a href="#ML">ML</a>)</li>
   <li>Mathematics and Multivariate Statistics (<a href="#MMS">MMS</a>)</li>
   <li>Tools and Programming Languages for Data Science (<a href="#PTDS">PTDS</a>)</li>
 </ul>
 <h2>Course Project</h2>
 Below, a course's project, along with its outcome, and path to be found are detailed.
-<h3 id="ML">Introduction to Machine Learning (ML)</h3>
-A dataset comprised of musical features associated with songs on <a href="https://www.spotify.com">Spotify</a>, as labeled by a user's likes and dislikes was preprocessed and exposed to initial as well as explanatory analysis. In the course of the classification <a href="https://github.com/thore-dahl/Coursework/tree/main/ml_classification">project</a>, models were trained on that preprocessed data, employing "K-Nearest-Neighbor", "Decision Trees", and "Support Vector Machines", tuned for its hyperparameters, and nested cross-validated. Based on the <a href="https://github.com/thore-dahl/Coursework/tree/main/ml_classification">project</a> findings recommendations as to a model, curating as yet unseen songs to stimulate user engagement, have been proposed.
 <h3 id="MMS">Mathematics and Multivariate Statistics (MMS)</h3>
 Datasets containing transactional features of users within <a href="https://www.instacart.com">Instacart's</a> grocery vertical have been preprocessed and analyzed initially as well as explanatorily. For the purpose of this <a href="https://github.com/thore-dahl/Coursework/tree/main/ml_clustering">project</a>, "k-Means" and "hierarchical" clustering were applied to PCA-prepared preprocessed data. User behavior was then characterized according to the selected cluster's analysis, enabling predictive marketing to foster engagement via personalized strategies.
 <h3 id="PTDS">Tools and Programming Languages for Data Science (PTDS)</h3>
